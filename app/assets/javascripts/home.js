@@ -1,5 +1,5 @@
-$(function(){
-    generateRandomNumber();
+document.addEventListener("turbolinks:load", function() {
+  generateRandomNumber();
     $("#btnSpin").click(function(){
         generateRandomNumber();
     });

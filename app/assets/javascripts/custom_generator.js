@@ -1,4 +1,4 @@
-$(function(){
+document.addEventListener("turbolinks:load", function() {
     var minInput = $("#minInput");
     var maxInput = $("#maxInput");
     var amountOfControlInput = $("#amountOfControlInput");
